@@ -22,8 +22,8 @@
 
 Celem projektu jest implementacja części aplikacji odpowiadającej za sterowanie w grze „PONG” za pomocą postawy ciała.
 Sterowanie w projekcie odbywa się poprzez rozpoznawanie odpowiednich postaw ciała, gdzie:
-  •	Obie ręce podniesione do góry odpowiadają za ruch paletki do góry,
-  •	Stanie na baczność (z opuszczonymi rękami) oznacza brak ruchu, 
-  •	Kucanie odpowiada za ruch w dół.
+  *	Obie ręce podniesione do góry odpowiadają za ruch paletki do góry,
+  *	Stanie na baczność (z opuszczonymi rękami) oznacza brak ruchu, 
+  *	Kucanie odpowiada za ruch w dół.
 W projekcie wykorzystywana jest biblioteka MediaPipe, która pozwala na wykrywanie postaw ciała. Implementacja programu odbywa się z wykorzystaniem języka Python.
 
