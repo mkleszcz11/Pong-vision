@@ -1,7 +1,7 @@
 # Repo structure
 * Source - source files
 * Notes - some notes
-* report - weekly report, to be updated every week before Friday classes (word file)
+* report - weekly report, to be updated every week before Friday classes (word file):
 https://aghedupl-my.sharepoint.com/:w:/g/personal/brykpawel_student_agh_edu_pl/ESOAIX-matJPg5_DmRUyIt8Bo0fd50MLrQbNzHD0DzhdqA?e=eNhYR4&fbclid=IwAR1Suj1SsPOGwiVoevSNoNmBcjzIEaF3Y86gv2rT1s8DhEUBRE5fhSKrNVI
 * TODO - to do list
 
