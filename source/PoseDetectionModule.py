@@ -25,7 +25,7 @@ class PoseDetector():
             for id, lm in enumerate(results.pose_landmarks.landmark): 
                 h, w, c = img.shape
                 cx, cy = int(lm.x*w), int(lm.y*h)
-                if id in [0, 30, 16]:
+                if id in [0, 30, 16, 12]:
                     landmark_lst.append([id, cx, cy])
                     # print(f"Landmark index: {id} - XY [{cx}, {cy}]")
                     cv2.circle(img, (cx, cy), 5, (0, 255, 0), cv2.FILLED)
