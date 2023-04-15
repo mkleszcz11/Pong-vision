@@ -29,5 +29,5 @@ Sterowanie w projekcie odbywa się poprzez rozpoznawanie odpowiednich postaw cia
   *	Kucanie odpowiada za ruch w dół.
 
 
-W projekcie wykorzystywana jest biblioteka MediaPipe, która pozwala na wykrywanie postaw ciała. Implementacja programu odbywa się z wykorzystaniem języka Python.
+W projekcie wykorzystywana jest biblioteka MediaPipe, która pozwala na wykrywanie postaw ciała. Implementacja programu odbywa się z wykorzystaniem języka Python
 
