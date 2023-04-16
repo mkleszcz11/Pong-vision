@@ -1,6 +1,7 @@
 import cv2
 import time
 import numpy as np
+import json
 import requests
 import imutils
 import PoseDetectionModule as PDM
@@ -62,4 +63,20 @@ while True:
     cv2.putText(img, str(int(fps)), (10, 70), cv2.FONT_HERSHEY_PLAIN, 3, (255, 0, 0), 4)
     cv2.imshow("Android_cam", img)
     #print(*neutral_pose)
+
+    # Define the JSON data
+    data = {
+        "id": 4,
+        "racketDirection": result,
+    }
+
+    # Encode the data as a JSON string
+    json_data = json.dumps(data)
+
+    # Define the URL to send the data to
+    url = "http://localhost:5001/"
+
+    # Send the JSON data as part of an HTTP POST request
+    response = requests.post(url, data=json_data)
+
     cv2.waitKey(1)
